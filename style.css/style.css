@@ -1,0 +1,835 @@
+.body{
+    width: 1900px;
+    height: 920px;
+    margin: auto;
+    background-image: url(../images/background.jfif) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3px;
+    
+   
+}
+.logo{
+    width: 90%;
+}
+.hist{
+    margin-top: 65px;
+}
+
+.perso{
+    left: 80px;
+}
+.compe{
+    left: 40px;
+}
+.about{
+    left: 120px;
+}
+.menu{
+   padding-top: 50px;
+   height: 50px;
+   width: 300px;
+   background-color:rgba(0,0,255,0.5);
+   border: solid 1px yellow;
+    
+}
+ul.sous-menu{
+    list-style: none;
+    display: none;
+    margin-top: -10%;
+    
+}
+
+.a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+    
+    line-height: 32px;
+    cursor: pointer;
+    
+   
+}
+.paddingtop{
+    padding-top: 30px;
+}
+
+    
+
+.brique{
+    
+    width: 200px;
+    height: 70px;
+    background-color:rgba(0,0,255,0.5);
+    border: solid 1px yellow;
+
+}
+.back{
+    width: 250px;
+    height: 70px;
+    background-color:rgba(0,0,255,0.5);
+    border: solid 1px yellow;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.centre{
+    margin: auto;
+}
+
+li {
+    font-family: 'Rubik', sans-serif;
+    display: block;
+    position: relative;
+    background-color: #0616ff9e;
+    border-top-left-radius: 20px; 
+    width: 130px;
+    height: 20px;
+    margin-top: 20px;
+    color: rgb(255,255,255);
+    font-size: 28px;
+    font-weight:bolder;
+    text-align: center;
+    line-height: 0px;
+    
+    }
+   
+
+   
+li:hover > ul.sous-menu{
+    display: block;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    
+    
+}
+
+li:hover {
+color: rgb(0,255,255);
+background-color: rgba(0,0,255,0.2);
+}
+li:hover > .a {
+    color: rgb(0,255,255);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containermenu {
+    
+    color: white;
+    width: 1800px;
+    height: 850px;
+    /border: solid 1px red;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+.containermenu2 {
+    padding-top: 300px;
+    color: white;
+}
+.page1 {
+    margin-top: 30px;
+    color: white;
+    height: 440px;
+    /border: solid 1px red;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.container1 {
+    margin-top: 30px;
+    color: white;
+    height: 400px;
+   / border: solid 1px red;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.container2 {
+    padding-top: 3%;
+    color: white;
+    height: 200px;
+   / border: solid 1px skyblue; 
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.container3{
+    color: white;
+    width: 1800px;
+
+    /border: solid 1px red;
+}
+
+
+.page3 {
+    margin-top: 30px;
+    color: white;
+    height: 700px;
+   / border: solid 1px red;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+.microcontainer1 {
+    height: 400px;
+}
+.microcontainer2 {
+    height: 300px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.gif2 {
+    border: solid 1px cyan;
+    margin-left: 85px;
+    margin-top: 100px;
+     width: 450px; 
+}
+.gif1 {
+    border: solid 1px cyan;
+    
+    margin-left: 100px;
+    width: 650px;
+}
+.image1 {
+    border: solid 1px cyan;
+    margin-left: 20px;
+   margin-top: 100px;
+    width: 870px;  
+}
+.tierlist {
+    border: solid 1px cyan;
+   margin-top: 5px;
+    width: 400px;  
+}
+.gods {
+    margin-top: 5px;
+    border: solid 1px cyan;
+    width: 400px;
+}
+.pika{
+    
+    border: solid 1px cyan;
+    margin: 10px;
+    width: 200px;
+}
+
+
+    
+
+
+
+
+.video1 {
+    border: solid 1px cyan;
+    margin-left: 15px;
+}
+.video2 {
+    border: solid 1px cyan;
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.titre{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+.titre1{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 5px;
+    
+}
+.text2{
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 1px orangered;
+}
+.text3{
+    font-family: 'Noto Serif', serif;
+    margin-left: 30px;
+    padding: 10px;
+    border: solid 1px orangered;
+}
+
+.text4{
+    font-family: 'Noto Serif', serif;
+    padding: 10px;
+    border: solid 1px orangered;
+}
+.text5{
+    width: 400px;
+    font-family: 'Noto Serif', serif;
+    padding: 1%;
+    border: solid 1px orangered;
+}
+.liens {
+    color: blanchedalmond;
+}
+
+.margintop{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 992px){
+
+    .body{
+        width: 980px;
+        
+        
+        background-repeat: repeat;
+        background-size: 100%;
+        padding: 1px;
+        
+       
+    }
+    .logo{
+        width: 90%;
+    }
+    .hist{
+        margin-top: 32px;
+    }
+    
+    .perso{
+        left: 40px;
+    }
+    .compe{
+        left: 20px;
+    }
+    .about{
+        left: 60px;
+    }
+    .menu{
+       padding-top: 25px;
+       height: 25px;
+       width: 150px;
+      
+        
+    }
+    ul.sous-menu{
+        
+        margin-top: -5%;
+        
+    }
+    
+    .a{
+        
+       
+        
+        
+        line-height: 16px;
+        
+        
+       
+    }
+    .paddingtop{
+        padding-top: 15px;
+    }
+    
+        
+    
+    .brique{
+        
+        width: 150px;
+        height: 50px;
+        
+    
+    }
+    .back{
+        width: 175px;
+        height: 35px;    
+        margin-left: 5px;
+    }
+   
+    li {
+        
+        border-top-left-radius: 10px; 
+        width: 65px;
+        height: 10px;
+        margin-top: 10px;
+        font-size: 17px;
+        line-height: 0px;
+        }
+       
+    
+       
+   
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .containermenu {
+        
+        
+        width: 980px;
+        height: 850px;
+       
+        grid-template-columns: 40% 20% 40%;
+    }
+    .containermenu2 {
+        padding-top: 150px;
+        
+    }
+    .page1 {
+        margin-top: 15px;
+        height: 440px;
+        grid-template-columns: 30% 70%;
+    }
+    .container1 {
+        margin-top: 15px;
+        height: 400px;
+        grid-template-columns: 30% 70%;
+    }
+    .container2 {
+        padding-top: 3%;
+        height: 100px;
+        grid-template-columns: 25% 70%;
+    }
+    .container3{
+
+        width: 992px;
+    
+    
+    }
+    
+    
+    .page3 {
+        margin-top: 15px;
+        height: 350px;
+        
+    }
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .gif2 {
+       
+        margin-left: 42px;
+        margin-top: 50px;
+         width: 300px; 
+    }
+    .gif1 {
+       
+        
+        margin-left: 50px;
+        width: 325px;
+    }
+    .image1 {
+        
+        margin-left: 10px;
+       margin-top: 60px;
+        width: 700px;  
+    }
+    .tierlist {
+      
+       margin-top: 2px;
+        width: 280px;  
+    }
+    .gods {
+        margin-top: 2px;
+       
+        width: 250px;
+    }
+    .pika{
+        
+        
+        margin-top: 200px;
+        width: 100px;
+    }
+    
+    
+        
+    
+    
+    
+    
+    .video1 {
+        
+        margin-left: 7px;
+    }
+    .video2 {
+        
+        margin-left: 75px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .titre{
+        font-size: 17px;
+      
+        margin-left: 5px;
+        margin-bottom: 1px;
+    }
+    .titre1{
+        font-size: 17px;
+       
+        margin-left: 1px;
+        
+    }
+    .text2{
+        
+        margin-bottom: 5px;
+        padding: 5px;
+      
+    }
+    .text3{
+        font-size: 15px;
+        margin-left: 15px;
+        padding: 5px;
+        
+    }
+    
+    .text4{
+       
+        padding: 5px;
+       
+    }
+    .text5{
+        width: 200px;
+       
+     
+     
+    }
+  
+    
+    .margintop{
+        width: 800px;
+        margin-top: 15px;
+    }
+
+    
+}
+@media screen and (max-width: 600px){
+    .body{
+        width: 580px;
+        height: 1300px;
+        
+        
+        background-repeat: repeat;
+        background-size: 100%;
+        padding: 1px;
+        
+       
+    }
+    .logo{
+        width: 90%;
+    }
+    .hist{
+        margin-top: 20px;
+        left: -40px;
+    }
+    
+    .perso{
+        left: -40px;
+    }
+    .compe{
+        left: -40px;
+    }
+    .about{
+        left: -40px;
+    }
+    .menu{
+        margin-top: 180px;
+       padding-top: 25px;
+       height: 25px;
+       width: 150px;
+      
+        
+    }
+    ul.sous-menu{
+        
+        margin-top: -5%;
+        
+    }
+    
+    .a{
+        
+       
+        
+        
+        line-height: 16px;
+        
+        
+       
+    }
+    .paddingtop{
+        padding-top: 15px;
+    }
+    
+        
+    
+    .brique{
+        
+        width: 150px;
+        height: 50px;
+        
+    
+    }
+    .back{
+        width: 175px;
+        height: 35px;    
+        margin-left: 5px;
+    }
+   
+    li {
+        
+        border-top-left-radius: 10px; 
+        width: 65px;
+        height: 10px;
+        margin-top: 10px;
+        font-size: 17px;
+        line-height: 0px;
+        }
+       
+    
+       
+   
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .containermenu {
+        
+        
+        width: 600px;
+        height: 850px;
+       
+        grid-template-columns: 40% 20%;
+    }
+    .containermenu2 {
+        padding-top: 100px;
+        margin-left: 120px;
+    }
+    .page1 {
+        margin-top: 15px;
+        height: 440px;
+        grid-template-columns: 80%;
+    }
+    .container1 {
+        margin-top: 15px;
+        height: 400px;
+        grid-template-columns: 90%;
+    }
+    .container2 {
+        padding-top: 43%;
+        height: 500px;
+        grid-template-columns: 90%;
+    }
+    .container3{
+
+        width: 992px;
+    
+    
+    }
+    
+    
+    .page3 {
+        margin-top: 15px;
+        height: 350px;
+        grid-template-columns: 50%; 
+    }
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .gif2 {
+       
+        margin-left: 42px;
+        margin-top: 50px;
+         width: 300px; 
+    }
+    .gif1 {
+       
+        margin-top: 300px;
+        margin-left: 25px;
+        width: 500px;
+    }
+    .image1 {
+        
+        margin-left: 10px;
+       margin-top: 60px;
+        width: 550px;  
+    }
+    .tierlist {
+      
+       margin-top: 2px;
+        width: 300px;  
+    }
+    .gods {
+        margin-top: 2px;
+       
+        width: 300px;
+    }
+    .pika{
+        
+        
+        margin-top: 200px;
+        width: 150px;
+    }
+    
+    
+        
+    
+    
+    
+    
+    .video1 {
+        margin-top: 20px;
+        margin-left: 7px;
+        width: 500px;
+        height: 300px;
+    }
+    .video2 {
+        width: 500px;
+        height: 300px;
+        margin-left: 5px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .titre{
+        font-size: 17px;
+      
+        margin-left: 5px;
+        margin-bottom: 1px;
+    }
+    .titre1{
+        font-size: 17px;
+       
+        margin-left: 1px;
+        
+    }
+    .text2{
+        
+        margin-bottom: 5px;
+        padding: 5px;
+      
+    }
+    .text3{
+        font-size: 15px;
+        margin-left: 15px;
+        padding: 5px;
+        
+    }
+    
+    .text4{
+       
+        padding: 5px;
+       
+    }
+    .text5{
+        width: 200px;
+       
+     
+     
+    }
+  
+    
+    .margintop{
+        width: 500px;
+        margin-top: 15px;
+    }
+
+}
+
+
+
+
